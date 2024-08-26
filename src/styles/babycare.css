@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.babycare-welcome-text {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.comecar-btn {
+    padding: 0.6rem 2.2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: blue;
+    background: none;
+    border: 2px solid blue;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
