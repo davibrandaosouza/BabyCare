@@ -228,13 +228,16 @@ body {
 
 #audio-container {
     width: 90vw;
-}
-
-.audio {
-    height: 40vh;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.audio {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 35vh;
 }
 
 .audio-title {
@@ -271,16 +274,28 @@ body {
 }
 
 .audio-description {
-    height: 55vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     border: 2px solid var(--btn-menu);
+    flex-direction: column;
+    overflow-y: auto;
+    height: 55vh;
 }
 
 .audio-description-text {
-    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 1rem;
+}
+
+.audio-description-text p {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: .5rem 0;
 }
 
 #shantala-description {
