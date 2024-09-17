@@ -274,12 +274,8 @@ body {
 }
 
 .audio-description {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     border: 2px solid var(--btn-menu);
-    flex-direction: column;
     overflow-y: auto;
     height: 55vh;
 }
