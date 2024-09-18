@@ -203,7 +203,10 @@ body {
 }
 
 .dicas-header {
-    width: 80vw;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .dicas-title {
@@ -211,11 +214,12 @@ body {
 }
 
 .dicas-container {
-    width: 70vw;
+    width: 90vw;
     height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    text-align: justify;
 }
 
 .dicas-list {
