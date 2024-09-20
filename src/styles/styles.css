@@ -58,8 +58,14 @@ body {
     z-index: -1;
 }
 
+.baby-care-logo-menu {
+    height: 100%;
+    transform: scale(0.8) translateY(2rem)
+}
+
 .baby-care-logo {
     height: 100%;
+    transform: scale(0.4) translateY(13rem);
 }
 
 .main-menu-title {
