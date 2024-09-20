@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--background);
+    background: linear-gradient(to right, #e2ffbe, #ffc8a2, #ffffb5);;
 }
 
 #babycare-container {
@@ -33,6 +33,33 @@ body {
     gap: 2rem;
     padding: 2rem;
     text-align: center;
+}
+
+#babycare-container-main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+#babycare-container-main-menu::before {
+    content: '';
+    background: url("/src/images/momandherbaby.png") no-repeat center;
+    background-size: 170%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.baby-care-logo {
+    height: 100%;
 }
 
 .main-menu-title {
@@ -65,10 +92,6 @@ body {
     text-decoration: none;
     text-align: center;
     display: block;
-}
-
-.comecar-btn:hover {
-    background-color: var(--hover);
 }
 
 .menu-header {
@@ -105,8 +128,20 @@ body {
     display: block;
 }
 
-.shantala-image {
-    height: 20vh;
+#menu-shantala-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#baby-care-logo-container {
+    width: 100vw;
+    height: 30vh;
+}
+
+#baby-care-logo-shantala-container {
+    height: 50vh;
 }
 
 .shantala-btn {
@@ -117,6 +152,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .shantala-btn:visited {
