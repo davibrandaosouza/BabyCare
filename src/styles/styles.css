@@ -47,7 +47,7 @@ body {
 
 #babycare-container-main-menu::before {
     content: '';
-    background: url("/src/images/momandherbaby.png") no-repeat center;
+    background: url("./src/images/momandherbaby.png") no-repeat center;
     background-size: 170%;
     position: absolute;
     top: 0;
