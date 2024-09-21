@@ -90,11 +90,11 @@ body {
 .comecar-btn {
     width: 100%;
     background: none;
-    border: 2px solid var(--btn-main-menu);
     border-radius: 0.5rem;
     padding: 1rem 2rem;
     font-size: 1.5rem;
-    color: var(--btn-main-menu);
+    background-color: black;
+    color: white;
     text-decoration: none;
     text-align: center;
     display: block;
@@ -124,11 +124,11 @@ body {
 .menu-btn {
     width: 100%;
     background: none;
-    border: 2px solid var(--btn-menu);
     border-radius: 0.5rem;
     padding: 1rem 2rem;
     font-size: 2rem;
-    color: var(--btn-menu);
+    background-color: black;
+    color: white;
     text-decoration: none;
     text-align: center;
     display: block;
@@ -183,8 +183,8 @@ body {
 
 .shantala-btn-list a {
     width: 100%;
-    background: var(--btn-main-menu);
-    color: var(--background);
+    background-color: black;
+    color: white;
     border: none;
     border-radius: 0.5rem;
     padding: 1rem 2rem;
@@ -205,11 +205,11 @@ body {
 .musicas-menu-btn {
     width: 100%;
     background: none;
-    border: 2px solid var(--btn-main-menu);
     border-radius: 0.5rem;
     padding: 1rem 2rem;
     font-size: 2rem;
-    color: var(--btn-main-menu);
+    background-color: black;
+    color: white;
     text-decoration: none;
     text-align: center;
     display: block;
