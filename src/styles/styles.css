@@ -305,7 +305,7 @@ body {
 }
 
 .progress-bar {
-    border: 5px solid var(--btn-main-menu);
+    border: 5px solid black;
     border-radius: 1rem;
 }
 
